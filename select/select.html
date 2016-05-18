@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<title>Examples</title>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<link rel="stylesheet" href="./css/deepSelect.css">
+</head>
+
+<body>
+
+<form action="">
+	<div id="de_selectwrap">
+		<select>
+			<option value="">Month</option>
+			<option value="">January</option>
+			<option value="">February</option>
+			<option value="">March</option>
+			<option value="">April</option>
+			<option value="">May</option>
+			<option value="">June</option>
+		</select>
+	</div>
+		
+</form>
+
+
+<!--[if lte IE 8]>
+    <script src="../deep-ie8.js"></script>
+<![endif]-->
+<script src="../deepEase.js"></script>
+<script src="./js/deepSelect.js"></script>
+<script>
+	window.onload = function() {
+		var selWrap = document.getElementById('de_selectwrap');
+		deepSelect({
+			selWrap : selWrap
+		});
+	};
+</script>
+    
+</body>
+</html>
