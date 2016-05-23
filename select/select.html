@@ -12,7 +12,29 @@
 <body>
 
 <form action="">
-	<div id="de_selectwrap">
+	<div class="de_selectwrap">
+		<select>
+			<option value="">Month</option>
+			<option value="">January</option>
+			<option value="">February</option>
+			<option value="">March</option>
+			<option value="">April</option>
+			<option value="">May</option>
+			<option value="">June</option>
+		</select>
+	</div>
+	<div class="de_selectwrap">
+		<select>
+			<option value="">Month</option>
+			<option value="">January</option>
+			<option value="">February</option>
+			<option value="">March</option>
+			<option value="">April</option>
+			<option value="">May</option>
+			<option value="">June</option>
+		</select>
+	</div>
+	<div class="de_selectwrap">
 		<select>
 			<option value="">Month</option>
 			<option value="">January</option>
@@ -34,7 +56,7 @@
 <script src="./js/deepSelect.js"></script>
 <script>
 	window.onload = function() {
-		var selWrap = document.getElementById('de_selectwrap');
+		var selWrap = document.querySelectorAll('.de_selectwrap');
 		deepSelect({
 			selWrap : selWrap
 		});

@@ -10,7 +10,7 @@ ol,li{
     list-style:none;
 }
 
-#de_selectwrap{
+.de_selectwrap{
     width:200px;
     margin:20px auto;
 }
